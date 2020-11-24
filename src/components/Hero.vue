@@ -65,6 +65,7 @@ export default {
       padding: 10px;
       font-size: 30px;
     }
+
     &-button {
       padding: 10px;
       border: none;
