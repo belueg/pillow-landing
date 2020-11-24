@@ -5,6 +5,10 @@
 </template>
 
 <style lang="scss">
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
