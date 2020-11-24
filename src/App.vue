@@ -6,7 +6,7 @@
 
 <style lang="scss">
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 body {

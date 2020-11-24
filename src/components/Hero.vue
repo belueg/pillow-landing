@@ -60,7 +60,7 @@ export default {
     align-items: center;
     justify-content: center;
     &-subtitle {
-      background-color: #ffffffbd;
+      background-color: #ffffff5b;
       width: fit-content;
       padding: 10px;
       font-size: 30px;
@@ -69,10 +69,12 @@ export default {
       padding: 10px;
       border: none;
       border-radius: 8px;
+      font-weight: bold;
       background-color: purple;
       color: white;
     }
   }
+
   &-descriptions {
     height: 20%;
     display: flex;
