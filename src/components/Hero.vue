@@ -88,6 +88,7 @@ export default {
 
     &-box {
       text-align: center;
+
       i {
         font-size: 35px;
       }
