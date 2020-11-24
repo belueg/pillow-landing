@@ -59,6 +59,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     &-subtitle {
       background-color: #ffffff5b;
       width: fit-content;
