@@ -74,6 +74,7 @@ export default {
       color: white;
     }
   }
+
   &-descriptions {
     height: 20%;
     display: flex;
