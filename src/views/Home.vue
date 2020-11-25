@@ -20,6 +20,6 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  height: 100vh;
+  height: calc(100vh - 55px);
 }
 </style>
