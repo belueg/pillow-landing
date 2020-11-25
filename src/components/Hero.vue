@@ -78,6 +78,12 @@ export default {
       font-weight: bold;
       background-color: purple;
       color: white;
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        background-color: #963c968c;
+      }
     }
   }
 
