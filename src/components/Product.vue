@@ -11,7 +11,9 @@
         From
         <strong>{{ price }}</strong>
       </p>
-      <button class="product-price-button">Shop</button>
+      <router-link :to="{ path: '/details/' + id }">
+        <button class="product-price-button">Shop</button>
+      </router-link>
     </div>
   </div>
 </template>
@@ -19,7 +21,7 @@
 <script>
 export default {
   name: 'Product',
-  props: ['tag', 'title', 'shortDescription', 'price', 'img']
+  props: ['tag', 'title', 'shortDescription', 'price', 'img', 'id']
 }
 </script>
 

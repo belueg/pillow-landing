@@ -2,13 +2,14 @@
   <div class="shop">
     <h1 class="shop-title">The pillows of your dreams are here</h1>
     <div class="shop-product-container">
-      <div v-for="(pillow, index) in pillows" :key="index">
+      <div v-for="pillow in pillows" :key="pillow.id">
         <Product
           :tag="pillow.tag"
           :title="pillow.title"
           :shortDescription="pillow.description"
           :price="pillow.price"
           :img="pillow.image"
+          :id="pillow.id"
         ></Product>
       </div>
     </div>
