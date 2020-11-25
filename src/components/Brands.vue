@@ -38,6 +38,9 @@ export default {
     font-weight: bolder;
     &-brand {
       font-size: 55px;
+      &:hover {
+        color: rgb(180, 54, 180);
+      }
     }
   }
 }
