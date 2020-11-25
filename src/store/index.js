@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
     pillows: [
       {
+        id: 1,
         tag: 'most popular',
         title: 'Original Pillow',
         description:
@@ -16,6 +17,7 @@ export default new Vuex.Store({
         price: '$59'
       },
       {
+        id: 2,
         tag: 'most supportive',
         title: 'Foam Pillow',
         description:
@@ -25,6 +27,7 @@ export default new Vuex.Store({
         price: '$80'
       },
       {
+        id: 3,
         tag: 'Premium',
         title: 'Down Pillow',
         description: 'An airy, all-natural down fill for plushy comfort.',
