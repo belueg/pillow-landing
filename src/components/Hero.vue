@@ -5,7 +5,11 @@
     </div>
     <div class="hero-main">
       <h2 class="hero-main-subtitle">America's #1 Rated Pillows Brand</h2>
-      <button class="hero-main-button">Shop Now</button>
+      <RouterLink to="/shop">
+        <button class="hero-main-button">
+          Shop Now
+        </button>
+      </RouterLink>
     </div>
 
     <div class="hero-descriptions">
