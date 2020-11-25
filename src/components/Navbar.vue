@@ -17,7 +17,7 @@ export default {
   display: flex;
   align-items: center;
   padding: 0 20px;
-  box-shadow: -1px -3px 15px -1px #8e4373;
+  box-shadow: -4px -8px 15px -1px #8e4373;
   z-index: 4;
 
   a {
