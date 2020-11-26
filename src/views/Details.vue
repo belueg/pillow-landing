@@ -7,6 +7,7 @@
       </div>
       <FormDetails :description="pillowDetails" class="details-component" />
     </div>
+    <div class="details-oval"></div>
   </div>
 </template>
 
@@ -35,8 +36,10 @@ export default {
 
 <style lang="scss" scoped>
 .details {
+  overflow: hidden;
+  position: relative;
   text-align: center;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 55px);
   .details-container {
     margin-top: 60px;
     display: flex;
@@ -56,6 +59,16 @@ export default {
       }
     }
   }
+
+  .details-oval {
+    width: 100%;
+    height: 60%;
+    background: #e2d6f7;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+  }
 }
 
 @media screen and(max-width: 1280px) {
@@ -71,6 +84,14 @@ export default {
         .details-img {
           min-width: 100%;
         }
+      }
+    }
+  }
+
+  @media screen and(max-width: 1255px) {
+    .details {
+      &-oval {
+        display: none;
       }
     }
   }
