@@ -34,7 +34,7 @@ export default {
   align-items: center;
   &-box {
     text-align: center;
-    color: purple;
+    color: #6d5990;
     font-weight: bolder;
     &-brand {
       font-size: 55px;
