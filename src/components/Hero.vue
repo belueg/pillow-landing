@@ -41,7 +41,7 @@ export default {
 
 <style scoped lang="scss">
 .hero {
-  color: purple;
+  color: #472484;
   position: relative;
   height: 80%;
   background: url('../assets/bed.jpg');
@@ -76,13 +76,10 @@ export default {
       border: none;
       border-radius: 8px;
       font-weight: bold;
-      background-color: purple;
+      background-color: #6d5990;
       color: white;
       &:focus {
         outline: none;
-      }
-      &:hover {
-        background-color: #963c968c;
       }
     }
   }
@@ -93,7 +90,7 @@ export default {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #963c968c;
+    background-color: #a27be580;
     color: white;
 
     &-box {

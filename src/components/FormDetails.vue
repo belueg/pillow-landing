@@ -42,11 +42,13 @@ export default {
 
 <style lang="scss" scoped>
 .formDetails {
+  background-color: white;
   width: 400px;
   height: 490px;
   box-shadow: 0px 3px 7px -1px #9e8b97;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 40px;
   &-description {
     height: 120px;
     text-align: left;
@@ -68,6 +70,9 @@ export default {
       border: none;
       border-bottom: 1px solid black;
       margin: 8px 0px 10px 0px;
+      &:focus {
+        outline: none;
+      }
     }
     span {
       color: rgb(80, 33, 80);

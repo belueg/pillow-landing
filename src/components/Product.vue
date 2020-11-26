@@ -28,6 +28,8 @@ export default {
 <style lang="scss" scoped>
 .product {
   position: relative;
+  background: white;
+  z-index: 5;
   box-shadow: 0px 3px 7px -1px #9e8b97;
   border-radius: 5px;
   padding: 10px 0;

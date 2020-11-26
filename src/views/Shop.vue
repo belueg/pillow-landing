@@ -13,6 +13,7 @@
         ></Product>
       </div>
     </div>
+    <div class="shop-oval"></div>
   </div>
 </template>
 
@@ -34,14 +35,17 @@ export default {
 <style lang="scss" scoped>
 .shop {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: auto;
+  height: calc(100vh - 55px);
+  overflow: hidden;
+  position: relative;
   &-title {
     margin-top: 50px;
   }
   &-product-container {
+    z-index: 2;
     height: auto;
     width: 100%;
     padding: 20px;
@@ -49,6 +53,28 @@ export default {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .shop-oval {
+    width: 100%;
+    height: 60%;
+    background: #e2d6f7;
+    border-radius: 50% 50% 0% 0%;
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .shop {
+    height: auto;
+  }
+}
+
+@media screen and(max-width: 1135px) {
+  .shop {
+    &-oval {
+      display: none;
+    }
   }
 }
 </style>

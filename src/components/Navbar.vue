@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
-  color: purple;
+  color: #472484;
   height: 55px;
   display: flex;
   align-items: center;
@@ -22,10 +22,7 @@ export default {
 
   a {
     text-decoration: none;
-    color: purple;
-    &:hover {
-      color: rgb(180, 54, 180);
-    }
+    color: #472484;
   }
   &-title {
     margin: 0;
