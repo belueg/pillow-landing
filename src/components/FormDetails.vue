@@ -48,6 +48,7 @@ export default {
   box-shadow: 0px 3px 7px -1px #9e8b97;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 40px;
   &-description {
     height: 120px;
     text-align: left;
