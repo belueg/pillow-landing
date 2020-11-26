@@ -22,5 +22,6 @@ export default {
 }
 body {
   margin: 0;
+  height: auto;
 }
 </style>
