@@ -92,4 +92,16 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .formDetails {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .formDetails {
+    width: 315px;
+  }
+}
 </style>
