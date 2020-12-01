@@ -22,4 +22,10 @@ export default {
 .home {
   height: calc(100vh - 55px);
 }
+
+// @media screen and(max-width: 1090px) {
+//   .home {
+//     min-height: 100vh;
+//   }
+// }
 </style>
