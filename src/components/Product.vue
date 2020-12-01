@@ -76,4 +76,10 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .product {
+    margin-right: 0;
+  }
+}
 </style>
