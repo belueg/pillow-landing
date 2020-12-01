@@ -45,7 +45,7 @@ export default {
   position: relative;
   height: 80%;
   background: url('../assets/bed.jpg');
-  background-position: center bottom;
+  background-position: left;
   background-repeat: no-repeat;
 
   &-title {
@@ -98,6 +98,54 @@ export default {
 
       i {
         font-size: 35px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1090px) {
+  .hero {
+    min-height: 100%;
+    &-title {
+      height: 30%;
+    }
+    &-descriptions {
+      padding: 20px;
+      height: 30%;
+      flex-wrap: wrap;
+      &-box {
+        margin: 15px;
+      }
+    }
+    &-main {
+      height: 40%;
+    }
+  }
+}
+
+@media screen and(max-width: 530px) {
+  .hero {
+    background-position: left;
+    &-title {
+      height: 20%;
+    }
+    &-main {
+      height: 40%;
+      &-subtitle {
+        font-size: 20px;
+      }
+    }
+    &-descriptions {
+      height: 40%;
+    }
+  }
+}
+
+@media screen and(max-width: 376px) {
+  .hero {
+    &-descriptions {
+      &-box {
+        font-size: 12px;
       }
     }
   }

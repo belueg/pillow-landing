@@ -52,6 +52,7 @@ export default {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
   .shop-oval {
@@ -74,6 +75,15 @@ export default {
   .shop {
     &-oval {
       display: none;
+    }
+  }
+}
+
+@media screen and(max-width: 610px) {
+  .shop {
+    &-title {
+      font-size: 25px;
+      text-align: center;
     }
   }
 }

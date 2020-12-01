@@ -44,4 +44,18 @@ export default {
     }
   }
 }
+
+@media screen and(max-width: 1090px) {
+  .brands {
+    margin-top: 30px;
+    height: auto;
+    flex-wrap: wrap;
+    &-box {
+      margin: 15px;
+      &-brand {
+        font-size: 40px;
+      }
+    }
+  }
+}
 </style>
