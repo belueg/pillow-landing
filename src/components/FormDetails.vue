@@ -27,7 +27,7 @@
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
-      <span>Ready to ship, free shipping and returns</span>
+      <span>Ready to ship, free shippings!</span>
       <button>Buy now!</button>
     </form>
   </div>
