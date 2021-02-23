@@ -1,0 +1,6 @@
+{
+  "main": {
+    "welcome": "Welcome from {company}!",
+    "messages": " 0 messages | 1 message | {count} messages"
+  }
+}

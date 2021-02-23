@@ -1,0 +1,6 @@
+{
+  "main": {
+    "welcome": "Saludos desde {company}!",
+    "messages": "0 mensajes| 1 mensaje | {count} mensajes"
+  }
+}
